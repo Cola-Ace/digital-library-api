@@ -1,0 +1,17 @@
+{
+	"dependencies": {
+		"@tinyhttp/app": "^2.4.0",
+		"@tinyhttp/logger": "^2.0.0",
+		"body-parser": "^1.20.3",
+		"jsonwebtoken": "^9.0.2",
+		"milliparsec": "^5.0.1",
+		"mongodb": "^6.11.0",
+		"mongoose": "^8.8.4"
+	},
+	"scripts": {
+		"dev": "nodemon index.js",
+        "start": "node index.js"
+	},
+	"type": "module",
+	"module": "index.js"
+}
